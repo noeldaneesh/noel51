@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            line-height: 1.8;
+        }
+        .contact a {
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <!-- Name and Photo -->
+    <center>
+        <img src="student.jpg" alt="Student Photo" class="profile-img">
+        <h1>John Doe</h1>
+    </center>
+
+    <!-- Course Details -->
+    <h2>Course Details</h2>
+    <p><strong>Course:</strong> Bachelor of Computer Science</p>
+    <p><strong>University:</strong> XYZ University</p>
+    <p><strong>Year:</strong> 3rd Year</p>
+
+    <!-- Skills -->
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python Programming</li>
+        <li>Database Management (MySQL)</li>
+        <li>Problem Solving</li>
+    </ul>
+
+    <!-- Contact Details -->
+    <h2>Contact</h2>
+    <div class="contact">
+        <p>Email: <a href="mailto:johndoe@example.com">johndoe@example.com</a></p>
+        <p>Phone: <a href="tel:+911234567890">+91 12345 67890</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com" target="_blank">View Profile</a></p>
+        <p>GitHub: <a href="https://github.com" target="_blank">GitHub Profile</a></p>
+    </div>
+
+</div>
+
+</body>
+</html>
